@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { GWATCHES } from '../constants';
+import { GWATCHES } from './constants';
 import { Activity, Heart, Moon, ShieldCheck, ChevronRight } from 'lucide-react';
 
 const Gwatch: React.FC = () => {

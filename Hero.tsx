@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
-import { Product } from '../types';
+import { Product } from './types';
 
 interface HeroProps {
   product: Product;

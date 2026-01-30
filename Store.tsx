@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { PRODUCTS } from '../constants';
+import { PRODUCTS } from './constants';
 import { ShoppingCart, Plus } from 'lucide-react';
 
 const Store: React.FC = () => {
@@ -19,7 +18,7 @@ const Store: React.FC = () => {
           </div>
           <div className="hidden md:block text-right">
             <p className="text-sm font-medium">Need help? Ask a Gphone Genius.</p>
-            <p className="text-blue-600 text-sm hover:underline cursor-pointer">Find a store near you ></p>
+            <p className="text-blue-600 text-sm hover:underline cursor-pointer">Find a store near you &gt;</p>
           </div>
         </div>
       </header>

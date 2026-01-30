@@ -1,0 +1,8 @@
+/* Gphone Global Styles */
+/* This file is intentionally minimal as Tailwind handles most styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

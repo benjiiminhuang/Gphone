@@ -1,0 +1,8 @@
+{
+  "name": "Gphone - The Future of Intelligence",
+  "description": "A premium mobile brand website featuring Gphone 16 series, inspired by the minimalist and elegant design of Apple's official website. Built with React, Tailwind CSS, and powered by Gemini AI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

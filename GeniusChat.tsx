@@ -1,8 +1,7 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, User, Bot, X, MessageSquare } from 'lucide-react';
-import { chatWithGenius } from '../services/geminiService';
-import { ChatMessage } from '../types';
+import { chatWithGenius } from './geminiService';
+import { ChatMessage } from './types';
 
 const GeniusChat: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

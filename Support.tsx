@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Search, Key, Wrench, CreditCard, LifeBuoy, Monitor, Smartphone, Clock } from 'lucide-react';
 
@@ -75,12 +74,12 @@ const Support: React.FC = () => {
           <div className="bg-neutral-50 p-12 rounded-3xl border border-neutral-100 flex flex-col items-center space-y-4">
             <h3 className="text-2xl font-bold">Chat with us</h3>
             <p className="text-neutral-500">Our experts are online 24/7 to help you troubleshoot.</p>
-            <button className="text-blue-600 font-bold hover:underline">Start a chat ></button>
+            <button className="text-blue-600 font-bold hover:underline">Start a chat &gt;</button>
           </div>
           <div className="bg-neutral-50 p-12 rounded-3xl border border-neutral-100 flex flex-col items-center space-y-4">
             <h3 className="text-2xl font-bold">Visit a Store</h3>
             <p className="text-neutral-500">Book a reservation at the Gphone Genius Bar.</p>
-            <button className="text-blue-600 font-bold hover:underline">Find a location ></button>
+            <button className="text-blue-600 font-bold hover:underline">Find a location &gt;</button>
           </div>
         </div>
       </section>

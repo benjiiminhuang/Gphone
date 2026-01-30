@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { GPADS } from '../constants';
+import { GPADS } from './constants';
 import { ChevronRight, Layers, Palette, Cpu } from 'lucide-react';
 
 const Gpad: React.FC = () => {

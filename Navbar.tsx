@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import { Search, ShoppingBag, Menu, X } from 'lucide-react';
-import { NAV_LINKS } from '../constants';
+import { NAV_LINKS } from './constants';
 
 interface NavbarProps {
   currentPage: string;

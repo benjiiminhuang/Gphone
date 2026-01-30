@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      base: '/Gphone/',  // 添加这行让 GitHub Pages 能正确找到资源文件
       server: {
         port: 3000,
         host: '0.0.0.0',
